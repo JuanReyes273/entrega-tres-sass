@@ -299,17 +299,20 @@ footer {
     main .main-home .contenedor-imagen {
       grid-area: contenedor-imagen; }
   section .contenido-tres {
+    padding-top: 2.5rem;
     padding-left: 1rem; }
   section .contenido-cuatro {
     padding-left: 1rem; }
   section .terciario-home div:hover {
-    transform: scale(1.02); }
+    transform: scale(1.03);
+    transition-duration: 0.5s; }
   section .contenido-cinco {
     padding-left: 1rem; }
   section .contenido-seis {
     padding-left: 1rem; }
   section .cuaternario-home div:hover {
-    transform: scale(1.02); } }
+    transform: scale(1.03);
+    transition-duration: 0.5s; } }
 
 /*ESTILOS INDEX PC MEDIANA*/
 @media screen and (min-width: 1250px) {
@@ -531,14 +534,15 @@ section .industrias-tarjetas {
 @media screen and (min-width: 992px) {
   main .main-servicios {
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 45% 50%;
     grid-template-rows: auto;
     grid-template-areas: "contenido-siete imagen-dos";
     align-items: center;
     padding: 0;
     height: 100vh;
     padding-left: 1rem;
-    padding-right: 0rem; }
+    padding-right: 0rem;
+    gap: 4rem; }
     main .main-servicios .contenido-siete {
       grid-area: contenido-siete; }
       main .main-servicios .contenido-siete p {
@@ -553,7 +557,8 @@ section .industrias-tarjetas {
     padding-left: 4rem;
     padding-right: 4rem; }
     section .industrias-tarjetas div:hover {
-      transform: scale(1.02); } }
+      transform: scale(1.03);
+      transition-duration: 0.5s; } }
 
 /*ESTILOS SERVICIOS PC MEDIANA*/
 @media screen and (min-width: 1250px) {
@@ -726,7 +731,8 @@ section .tecnologias-tarjetas {
     padding-left: 4rem;
     padding-right: 4rem; }
     section .tecnologias-tarjetas div:hover {
-      transform: scale(1.02); } }
+      transform: scale(1.03);
+      transition-duration: 0.5s; } }
 
 /*ESTILOS TECNOLOGIA PC MEDIANA*/
 @media screen and (min-width: 1250px) {
@@ -893,8 +899,11 @@ section .contenido-ocho h2, section .contenido-diez h2 {
         width: 80%; }
     main .main-industrias .imagen-cuatro {
       grid-area: imagen-cuatro; }
-  .gris .tarjetas-finanzas div:hover {
-    transform: scale(1.02); } }
+  .gris .tarjetas-finanzas {
+    padding-top: 5.5rem; }
+    .gris .tarjetas-finanzas div:hover {
+      transform: scale(1.03);
+      transition-duration: 0.5s; } }
 
 /*ESTILOS INDUSTRIAS PC MEDIANA*/
 @media screen and (min-width: 1250px) {
@@ -1065,7 +1074,8 @@ section .contenido-ocho h2, section .contenido-diez h2 {
     .gris .contenido-trece h2 {
       font-size: 1.5rem; }
   .gris .tarjetas-historias div:hover {
-    transform: scale(1.02); } }
+    transform: scale(1.03);
+    transition-duration: 0.5s; } }
 
 /*ESTILOS HISTORIAS PC MEDIANA*/
 @media screen and (min-width: 1250px) {

@@ -343,6 +343,7 @@ footer{
     }
     section{
         .contenido-tres{
+            padding-top: 2.5rem;
             padding-left: 1rem;
         }
         .contenido-cuatro{
@@ -350,7 +351,8 @@ footer{
         }
         .terciario-home{
             div:hover{
-                transform: scale(1.02);
+                transform: scale(1.03);
+                transition-duration: 0.5s;
             }
         }
         .contenido-cinco{
@@ -361,7 +363,8 @@ footer{
         }
         .cuaternario-home{
             div:hover{
-                transform: scale(1.02);
+                transform: scale(1.03);
+                transition-duration: 0.5s;
             }
         }
     }

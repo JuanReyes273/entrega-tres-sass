@@ -109,8 +109,10 @@
     }
     .gris{
         .tarjetas-finanzas{
+            padding-top: 5.5rem;
             div:hover{
-                transform: scale(1.02);
+                transform: scale(1.03);
+                transition-duration: 0.5s;
             }
         }
     }
